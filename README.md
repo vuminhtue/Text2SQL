@@ -155,11 +155,3 @@ Summarized in the sections below.
 1. A text-to-SQL agent is an LLM in a loop that uses tools to explore the database, write a query, run it, and fix its own errors.
 2. The system prompt and the tool descriptions are how you steer the agent's behavior.
 3. The agent is a helpful assistant, not an oracle: always verify its SQL and its answers.
-
-## Related Files in This Repository
-
-| File | Description |
-|---|---|
-| `langgraph_agent.py` | A similar agent built with LangGraph, LangChain's newer framework for agents. |
-| `streamlit_app.py` | A chat-style web interface on top of the agent. |
-| `Chinook.db` | A second sample database (a digital music store) for practicing with different questions. |
