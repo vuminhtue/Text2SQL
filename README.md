@@ -1,7 +1,5 @@
 # Text-to-SQL Workshop: Asking a Database Questions in Plain English
 
-Notebook: [`text_to_SQL_Langchain_agent.ipynb`](text_to_SQL_Langchain_agent.ipynb)
-
 ## Overview
 
 This notebook is a hands-on workshop that builds a **text-to-SQL agent**: a program that takes a question written in everyday language (for example, *"How many employees work at our customers in Dallas?"*), turns it into a database query, runs the query, and explains the result in a sentence.
